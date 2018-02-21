@@ -8,7 +8,7 @@ shared:
   # form of "repo_name". Alternatively, you can define the image as 
   # "repo_name:tag_label"
   # Docker image reference - https://hub.docker.com/_/golang/
-  image: 1.10.0-stretch
+  image: 1.10
   # A map of environment variables that we want to set
   environment:
     # We set the GOPATH to the build workspace. Eventually, this will be
